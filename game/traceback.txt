@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+NotADirectoryError: [WinError 267] Неверно задано имя папки: 'C:\\Users\\maksim\\Desktop\\path of wisdom\\game\\script.rpy'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\main.py", line 403, in main
+    renpy.loader.index_archives()
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\loader.py", line 258, in index_archives
+    for _dir, fn in listdirfiles():
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\loader.py", line 444, in listdirfiles
+    scandirfiles()
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\loader.py", line 344, in scandirfiles
+    i(add, seen)
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\loader.py", line 415, in scandirfiles_from_filesystem
+    for j in walkdir(i):
+  File "C:\Users\maksim\Desktop\renpy-8.1.3-sdk\renpy\loader.py", line 271, in walkdir
+    for i in os.listdir(dir):
+NotADirectoryError: [WinError 267] Неверно задано имя папки: 'C:\\Users\\maksim\\Desktop\\path of wisdom\\game\\script.rpy'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.0.24082114
+ 
+Fri Aug 23 20:31:37 2024

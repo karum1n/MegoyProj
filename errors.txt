@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label optional_name is defined twice, at File "game/script.rpy", line 82:
+    menu optional_name:
+and File "game/script.rpy", line 151:
+            menu optional_name:
+
+
+Ren'Py Version: Ren'Py 8.3.0.24082114
+Wed Sep  4 15:30:59 2024
